@@ -52,8 +52,8 @@ const saveAccessLog = async (log) => {
 
     // カテゴリの取得
     try {
-        const response = await fetch("【ts-lambda-NNNN-API】/default/ts-lambda-NNNN", options)
-        return response.text()
+        //const response = await fetch("【ts-lambda-NNNN-API】/default/ts-lambda-NNNN", options)
+        //return response.text()
     } catch (error) {
         return error
     }
