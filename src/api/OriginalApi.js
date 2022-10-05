@@ -11,7 +11,7 @@ const options = {
 const getCategories = async () => {
     // カテゴリの取得
     try {
-        const response = await fetch("http://tsamdx.japaneast.azurecontainer.io/category", options)
+        const response = await fetch("http://amapigw.azure-api.net/category", options)
         return response.json()
     } catch (error) {
         console.error(error)
@@ -22,7 +22,7 @@ const getCategories = async () => {
 const getCars = async () => {
     // 車の取得
     try {
-        const response = await fetch("http://tsamdx.japaneast.azurecontainer.io/car", options)
+        const response = await fetch("http://amapigw.azure-api.net/car", options)
         return response.json()
     } catch (error) {
         console.error(error)
